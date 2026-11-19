@@ -1,0 +1,10 @@
+{
+  "id": "mcp-picker",
+  "name": "Codex 快捷选择器",
+  "version": "2.0.0",
+  "description": "通过 # 打开 MCP，通过 ~ 打开 Skill，两套列表均支持别名、分组、置顶、最近使用和插入模板。",
+  "engines": { "codexpp": ">=2.8.0" },
+  "renderer": ["escape-guard.js", "renderer.js"],
+  "preload": { "scripts": ["escape-guard.js"], "reloadOnLaunch": true },
+  "backend": { "script": "backend.mjs" }
+}
