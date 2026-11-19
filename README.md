@@ -11,9 +11,12 @@ Codex 快捷选择器是一个 CodexPlusPlus 扩展，在 Codex 桌面端提供 
 
 ## 安装
 
-1. 安装 CodexPlusPlus 2.8.0 或更新版本。
-2. 将扩展文件放到 CodexPlusPlus 的本地扩展目录。Windows 上使用 `%APPDATA%\Codex++\user_scripts\mcp-picker\`，确保 `codexpp.json` 直接位于该目录。
-3. 通过 CodexPlusPlus 启动 Codex。更新预加载脚本后需退出 Codex 主程序并重新启动，让 Esc 拦截器在新页面加载时注册。
+需要 CodexPlusPlus 2.8.0 或更新版本。
+
+- **社区安装**：在 CodexPlusPlus 管理器打开「拓展 → 社区拓展」，搜索「Codex 快捷选择器」并安装。
+- **手动安装**：在 [GitHub Releases](https://github.com/MRLEILOVE/codex-quick-picker/releases) 下载 `mcp-picker-v2.0.0.zip`，解压到本地拓展目录。Windows 上使用 `%APPDATA%\Codex++\user_scripts\mcp-picker\`，确保 `codexpp.json` 直接位于该目录。
+
+安装或更新后，请退出 Codex，再通过 CodexPlusPlus 重新启动，使 Esc 预加载脚本生效。
 
 ## 插入模板
 
